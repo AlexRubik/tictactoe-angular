@@ -1,0 +1,27 @@
+main {
+
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 6px;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    align-items: center;
+    
+
+}
+
+app-square {
+
+    border-radius: 12px;
+    // border: 1px gray solid;
+    height: 100px;
+}
+
+
+
+.newGameButton:hover {
+
+    color: bisque;
+    background-color: black;
+}

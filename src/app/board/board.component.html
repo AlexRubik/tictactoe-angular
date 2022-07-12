@@ -1,0 +1,21 @@
+<h1>Current Player: {{player}}</h1>
+
+<h2 *ngIf="winner">Winner is {{winner}}</h2>
+
+<button class="newGameButton" mat-raised-button (click)="newGame()">Start New Game</button>
+
+<main>
+
+    <!-- ngFor renders a template for each item in a collection (squares in this case) 
+
+        "let val of squares" gives us access to the values of the squares array and "let i = index" gives
+        us access to their indices.
+    
+    -->
+    <app-square *ngFor="let val of squares; let i = index;"
+    [value]="val" 
+    (click) = "makeMove(i)">
+
+
+    </app-square>
+</main>
