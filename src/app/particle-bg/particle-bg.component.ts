@@ -14,11 +14,12 @@ import { MoveDirection, ClickMode, HoverMode, OutMode, ISourceOptions, Engine, C
 export class ParticleBgComponent implements OnInit {
 
   
+  innerWidth!:any;
   id = "tsparticles";
   particlesUrl = "https://gateway.pinata.cloud/ipfs/QmQ2HJNdaBcTojNk5Ddnptxx7oP3wN7DciewdkeBC7H4YL";
   particlesOptions: ISourceOptions = {
-    autoPlay: true,
-    background: undefined,
+    
+   
     fullScreen: {
       zIndex: -1
     },
@@ -88,6 +89,8 @@ export class ParticleBgComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.innerWidth = window.innerWidth;
+    console.log(this.innerWidth)
     
   }
 
