@@ -8,12 +8,12 @@
     padding: 12px;
     // align-items: center;
 
-    // @media screen and (max-width: 760px) {
+    @media screen and (max-width: 760px) {
 
-    //     grid-template-columns: 70px 70px 70px;
+        grid-template-columns: 70px 70px 70px;
     
         
-    // }
+    }
     
 
 }
@@ -24,12 +24,12 @@ app-square {
     // border: 1px gray solid;
     height: 100px;
 
-    // @media screen and (max-width: 760px) {
+    @media screen and (max-width: 760px) {
 
-    //     height: 70px;
+        height: 70px;
     
         
-    // }
+    }
 }
 
 
