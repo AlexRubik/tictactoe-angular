@@ -1,7 +1,6 @@
 .main {
 
-    display:inline-grid;
-    margin: auto;
+    display:grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 6px;
     text-align: center;
