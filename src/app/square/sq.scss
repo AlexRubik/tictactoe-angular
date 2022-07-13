@@ -1,6 +1,23 @@
+
+.squarediv {
+
+    width: 100px; 
+    height: 100px; 
+
+    @media screen and (max-width: 760px) {
+
+        height: 70px;
+        max-height: 70px;
+        width: 70px;
+        max-width: 70px;
+    
+        
+    }
+
+
+}
 .square { 
-    display: flex;
-    flex-wrap: wrap;
+
     width: 100px; 
     height: 100px; 
     font-size: 5em !important; 
