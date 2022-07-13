@@ -1,38 +1,39 @@
-// .square { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
+.square { 
+    width: 100%; 
+    height: 100%; 
+    font-size: 5em !important; 
+    opacity: 0.9; 
+    border: none; 
+    background-color: brown;
+    // border-radius: 12px;
 
-// }
+}
 
-// .square:hover {
+.square:hover {
 
-//     opacity: 1;
+    opacity: 1;
    
-//     background-color: rgb(255, 255, 255);
-// }
+    background-color: rgb(255, 255, 255);
+}
 
-// .Xsquare { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
-//     background-color: #14F195;
+.Xsquare { 
+    width: 100%; 
+    height: 100%; 
+    font-size: 5em !important; 
+    opacity: 0.9; 
+    border: none; 
+    border-radius: 12px;
+    background-color: #14F195;
 
-// }
+}
 
-// .Osquare { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
-//     background-color: #9945FF;
+.Osquare { 
+    width: 100%; 
+    height: 100%; 
+    font-size: 5em !important; 
+    opacity: 0.9; 
+    border: none; 
+    border-radius: 12px;
+    background-color: #9945FF;
 
-// }
+}
