@@ -17,7 +17,7 @@ import { Component, Input } from '@angular/core';
 })
 export class SquareComponent {
 
- rando = Math.random()
+ 
 
 @Input() value!: 'X' | 'O';
 
