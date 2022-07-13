@@ -1,11 +1,18 @@
 .square { 
-    width: 50px; 
-    height: 50px; 
+    width: 100px; 
+    height: 100px; 
     font-size: 5em !important; 
     opacity: 0.9; 
     border: none; 
     background-color: brown;
     // border-radius: 12px;
+    @media screen and (max-width: 760px) {
+
+        height: 70px;
+        width: 70px;
+    
+        
+    }
 
 }
 
@@ -17,23 +24,37 @@
 }
 
 .Xsquare { 
-    width: 100%; 
-    height: 100%; 
+    width: 100px; 
+    height: 100px; 
     font-size: 5em !important; 
     opacity: 0.9; 
     border: none; 
     border-radius: 12px;
     background-color: #14F195;
+    @media screen and (max-width: 760px) {
+
+        height: 70px;
+        width: 70px;
+    
+        
+    }
 
 }
 
 .Osquare { 
-    width: 100%; 
-    height: 100%; 
+    width: 100px; 
+    height: 100px; 
     font-size: 5em !important; 
     opacity: 0.9; 
     border: none; 
     border-radius: 12px;
     background-color: #9945FF;
+    @media screen and (max-width: 760px) {
+
+        height: 70px;
+        width: 70px;
+    
+        
+    }
 
 }
