@@ -7,17 +7,21 @@ import { Component, Input } from '@angular/core';
   selector: 'app-square',
   template: `
 
+  
 
-    <button class="square" *ngIf="value == null">{{value}}</button>
-    <button class="Xsquare" *ngIf="value == 'X'">{{value}}</button>
-    <button class="Osquare" *ngIf="value == 'O'">{{value}}</button>
+  <div class="square" *ngIf="value == null">{{value}}</div>
+  <div class="Xsquare" *ngIf="value == 'X'">{{value}}</div>
+    <div class="Osquare" *ngIf="value == 'O'">{{value}}</div>
+  
+    
+
   `,
- styleUrls:["sq.scss"]
+ styleUrls:["./sq.scss"]
 
 })
 export class SquareComponent {
 
- rando = Math.random()
+ 
 
 @Input() value!: 'X' | 'O';
 

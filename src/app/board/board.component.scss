@@ -3,36 +3,41 @@
     display:grid;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 6px;
-    text-align: center;
+
     justify-content: center;
     padding: 12px;
-    // align-items: center;
+    cursor: default;
 
-    // @media screen and (max-width: 760px) {
 
-    //     grid-template-columns: 70px 70px 70px;
+    @media screen and (max-width: 760px) {
+
+        grid-template-columns: 80px 80px 80px;
     
         
-    // }
+    }
     
 
 }
 
 app-square {
 
-    border-radius: 12px;
-    // border: 1px gray solid;
-    height: 100px;
 
-    // @media screen and (max-width: 760px) {
+    
 
-    //     height: 70px;
+    @media screen and (max-width: 760px) {
+
+       font-size: 0.8em;
     
         
-    // }
+    }
+    
 }
 
+.newGameButton {
 
+    background-color: #35012C;
+    color: #fff;
+}
 
 .newGameButton:hover {
 

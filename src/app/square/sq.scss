@@ -1,38 +1,92 @@
-// .square { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
 
-// }
 
-// .square:hover {
 
-//     opacity: 1;
+.square { 
+
+    width: 100px; 
+    height: 100px; 
+    color: #fff;
+    opacity: 1; 
+    border: none; 
+    background-color: #11001C;
+    // border-radius: 12px;
+    @media screen and (max-width: 760px) {
+
+        height: 80px;
+        max-height: 80px;
+        width: 80px;
+        max-width: 80px;
+     
+    
+        
+    }
+
+}
+
+.square:hover {
+
+    opacity: 0.9;
+
+    @media screen and (max-width: 760px) {
+
+        opacity: 1;
+    
+        
+    }
    
-//     background-color: rgb(255, 255, 255);
-// }
+   
+}
 
-// .Xsquare { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
-//     background-color: #14F195;
+.Xsquare { 
+    color: #fff;
+    width: 100px; 
+    height: 100px; 
+    font-size: 5.4em !important; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 12px;
+    background-color: #3A015C;
+    @media screen and (max-width: 760px) {
 
-// }
+        height: 80px;
+        width: 80px;
+       
+    
+        
+    }
 
-// .Osquare { 
-//     width: 100%; 
-//     height: 100%; 
-//     font-size: 5em !important; 
-//     opacity: 0.9; 
-//     border: none; 
-//     border-radius: 12px;
-//     background-color: #9945FF;
+}
 
-// }
+.Xsquare:hover {
+
+    cursor: default;
+
+
+ }
+
+.Osquare { 
+    color: #fff;
+    width: 100px; 
+    height: 100px; 
+    font-size: 5.4em !important; 
+    opacity: 1; 
+    border: none; 
+    border-radius: 12px;
+    background-color: #4F0147;
+    @media screen and (max-width: 760px) {
+
+        height: 80px;
+        width: 80px;
+       
+    
+        
+    }
+
+}
+
+.Osquare:hover {
+
+    cursor: default;
+
+
+ }

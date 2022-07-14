@@ -6,10 +6,9 @@ import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
 import { BoardComponent } from './board/board.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
-import { MatButtonModule } from '@angular/material/button';
 import { ParticleBgComponent } from './particle-bg/particle-bg.component'
 import { NgParticlesModule } from "ng-particles";
+import { MatButtonModule } from "@angular/material/button"
 
 
 @NgModule({
@@ -24,9 +23,8 @@ import { NgParticlesModule } from "ng-particles";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule,
-    MatButtonModule,
-    NgParticlesModule
+    NgParticlesModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
