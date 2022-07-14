@@ -48,10 +48,10 @@ export class ParticleBgComponent implements OnInit {
     },
     particles: {
       color: {
-        value: '#254467'
+        value: '#35012C'
       },
       links: {
-        color: '#254467',
+        color: '#35012C',
         distance: 150,
         enable: true,
         opacity: 0.4,

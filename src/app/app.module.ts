@@ -8,6 +8,7 @@ import { BoardComponent } from './board/board.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ParticleBgComponent } from './particle-bg/particle-bg.component'
 import { NgParticlesModule } from "ng-particles";
+import { MatButtonModule } from "@angular/material/button"
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { NgParticlesModule } from "ng-particles";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgParticlesModule
+    NgParticlesModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
